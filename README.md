@@ -27,7 +27,7 @@ A simple Personal Profile Web Application where the user fills in a profile form
 4. Right-click the project and **Clean and Build**.
 5. Right-click **index.html** and choose **Run File**.
 6. The browser opens at:
-   'https://localhost:8000/CSC584INDIVIDUALASSIGNMENT1/'
+   'https://localhost:8080/CSC584INDIVIDUALASSIGNMENT1/'
 7. Fill in all the fields and click **Submit Profile**.
 8. The submitted profile is displayed on the result page.
 
