@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+        <div class="card">
+        <h1>Creating Your Profile Form</h1>
+        <p class="sub">Please fill in the form with your details and press Submit.</p>
+        
+            <form action="PersonalProfileServlet" method="post"> 
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="studentId">Student ID</label>
+                <input type="text" id="studentId" name="studentId" required>
+                
+                <label for="programme">Programme</label>
+                <input type="text" id="programme" name="programme" required>
+                
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="hobbies">Hobbies</label>
+                <input type="text" id="hobbies" name="hobbies" required>
+
+                <label for="shortIntro">Short Self-Introduction</label>
+                <textarea id="shortIntro" name="shortIntro" rows="4" required></textarea>
+                
+                    <button type="submit">Submit Your Profile Here</button>
+            </form>
+        </div>
+     </body>
+</html>
